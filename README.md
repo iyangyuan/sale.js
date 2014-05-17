@@ -40,7 +40,7 @@ Sale.js -- 快速创建促销样式
   
 利用js初始化促销栏：  
   
-    $(document).ready(function(){
+    jQuery(window).load(function(){
       //在所有class包含sale-item的元素上调用sale.js
       $(".sale-item").sale({
         //sale栏高度
@@ -203,7 +203,7 @@ Sale.js -- 快速创建促销样式
     <script type="text/javascript">
         
         //利用js加载sale栏
-        $(document).ready(function(){
+        jQuery(window).load(function(){
           //在所有class包含sale-item的元素上调用sale.js
           $(".sale-item").sale({
             //sale栏高度
